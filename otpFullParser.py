@@ -157,8 +157,9 @@ while line:
 #		print (list(itertools.accumulate(Comms)))
 		
 #		trans = list( itertools.accumulate(AllTranList, lambda left, right: left.myAccSum.myValue + right.myAccSum.myValue))	
-		trans = list( itertools.accumulate(AllTranList, transactionAddCommission))
-		print (trans[len(trans)-2].myAccSum.myValue, trans[len(trans)-2].myCommision.myValue)
+
+#		trans = list( itertools.accumulate(AllTranList, transactionAddCommission))
+#		print (trans[len(trans)-2].myAccSum.myValue, trans[len(trans)-2].myCommision.myValue)
 		#
 
 		
